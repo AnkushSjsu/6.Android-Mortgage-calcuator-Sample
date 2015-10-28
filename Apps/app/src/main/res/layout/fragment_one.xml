@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:visibility="visible"
+    style="@style/AppTheme"
+    android:gravity="center">
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentStart="false"
+        android:id="@+id/calculateTable"
+        android:layout_alignParentEnd="false"
+        android:background="#7a6fa6b5"
+        android:minWidth="300dp"
+        android:layout_alignParentLeft="false"
+        android:baselineAligned="false"
+        android:gravity="center_vertical|center"
+        android:orientation="horizontal">
+
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/AlertDialog.AppCompat"
+            android:id="@+id/firstRowr"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monthly payment"
+                android:id="@+id/HomeLoanr"
+                android:layout_column="16"
+                android:textColor="#020202"
+                android:textStyle="bold"
+                android:paddingLeft="0dp"
+                android:singleLine="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$"
+                android:id="@+id/$r"
+                android:layout_column="19"
+                android:maxWidth="50dp"
+                android:gravity="fill_vertical|center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView"
+                android:layout_column="38"
+                android:padding="10dp"
+                android:textColor="#f2fcfbff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            style="@style/AlertDialog.AppCompat"
+            android:id="@+id/secRowr"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Interest Paid"
+                android:id="@+id/Downpayr"
+                android:layout_column="16"
+                android:textColor="#000000"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:paddingLeft="0dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$"
+                android:id="@+id/value2r"
+                android:layout_column="19"
+                android:maxWidth="50dp"
+                android:textAlignment="center"
+                android:gravity="fill_vertical|center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView2"
+                android:layout_column="38"
+                android:textColor="#f2fcfbff"
+                android:padding="3dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            style="@style/AlertDialog.AppCompat"
+            android:id="@+id/thirdRowr"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Property Tax Paid"
+                android:id="@+id/ARPr"
+                android:layout_column="16"
+                android:textColor="#000000"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:paddingLeft="0dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$"
+                android:id="@+id/valuer3"
+                android:layout_column="19"
+                android:maxWidth="50dp"
+                android:textAlignment="center"
+                android:gravity="fill_vertical|center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView3"
+                android:layout_column="38"
+                android:textColor="#f2fcfbff" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            style="@style/AlertDialog.AppCompat"
+            android:id="@+id/FourthRowR"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pay off date"
+                android:id="@+id/Interestpaid"
+                android:layout_column="16"
+                android:textColor="#000000"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:paddingLeft="0dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView4"
+                android:layout_column="38"
+                android:inputType="text"
+                android:textColor="#f2fcfbff" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+</RelativeLayout>

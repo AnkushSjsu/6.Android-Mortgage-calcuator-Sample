@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FFFF00">
+    <fragment
+        android:layout_height="match_parent"
+        android:layout_width="300dp"
+        class="android.javacodegeeks.com.last.AlphabetListFragment"
+        android:id="@+id/menu"/>
+    <fragment
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        class="android.javacodegeeks.com.last.OutputFragment"
+        android:id="@+id/output"/>
+</LinearLayout>
